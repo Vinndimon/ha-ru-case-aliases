@@ -1,0 +1,9 @@
+regenerate: {}
+revert: {}
+diagnose:
+  fields:
+    entity_id:
+      required: false
+      selector:
+        entity:
+          multiple: true
