@@ -1,25 +1,25 @@
 {
   "domain": "ru_case_aliases",
   "name": "Russian Case Aliases",
+  "after_dependencies": [
+    "conversation",
+    "todo",
+    "cover"
+  ],
   "codeowners": [
-    "@YOUR_GITHUB_USERNAME"
+    "@vinndimon"
   ],
   "config_flow": true,
   "dependencies": [
     "homeassistant"
   ],
-  "documentation": "https://github.com/YOUR_GITHUB_USERNAME/ha-ru-case-aliases",
+  "documentation": "https://github.com/vinndimon/ha-ru-case-aliases",
   "integration_type": "service",
   "iot_class": "calculated",
-  "issue_tracker": "https://github.com/YOUR_GITHUB_USERNAME/ha-ru-case-aliases/issues",
+  "issue_tracker": "https://github.com/vinndimon/ha-ru-case-aliases/issues",
   "requirements": [
     "pymorphy3==2.0.6"
   ],
   "single_config_entry": true,
-  "version": "0.5.0",
-  "after_dependencies": [
-    "conversation",
-    "todo",
-    "cover"
-  ]
-}
+  "version": "0.5.0"
+  }
